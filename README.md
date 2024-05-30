@@ -17,23 +17,26 @@ Diseño Atractivo y Funcional:
 Tema: Escoge un tema de WordPress que sea limpio, profesional y responsive.
 Navegación: Asegúrate de que la navegación sea intuitiva, con menús claros y accesibles.
 Páginas Clave:
-Inicio:
+
+<Inicio:/>
 
 Banner principal con CTA (Call to Action) para inscripciones.
 Sección de beneficios y características del curso.
 Testimonios y logotipos de empresas colaboradoras.
 Blog destacado y artículos recientes.
-Cursos:
+
+<Cursos:/>
 
 Lista de cursos con descripciones breves.
 Página individual para cada curso con detalles completos, incluyendo syllabus, instructores, y calendario.
-Estudiantes:
+<Estudiantes:/>
 
 Portal de acceso para estudiantes.
 Materiales del curso (documentos, enlaces, videos).
 Foros de discusión y grupos de estudio.
 Calendario de clases y eventos.
-Contacto:
+
+<Contacto:/>
 
 Formulario de contacto.
 Información de soporte.
