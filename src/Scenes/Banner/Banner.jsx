@@ -18,11 +18,11 @@ const Banner = () => {
 
   return (
     <div className={styles.carousel}>
-      <button onClick={prevSlide} className={styles.navButton}>Prev</button>
       <div className={styles.slideContainer}>
         {slides[currentSlide]}
       </div>
-      <button onClick={nextSlide} className={styles.navButton}>Next</button>
+      <button onClick={nextSlide} className={styles.navButtonN}>Next</button>
+      <button onClick={prevSlide} className={styles.navButtonP}>Prev</button>
     </div>
   )
 }
