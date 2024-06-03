@@ -1,7 +1,13 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+  #root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: center;
+    /* background-color: #231F20; */
+  }
+
+ html{
+  background-color: #231F20;
+ }
 
