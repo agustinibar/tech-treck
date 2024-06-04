@@ -1,6 +1,7 @@
 import styles from './courses.module.css';
 import logo from '../../assets/logoTech.jpg';
 
+
 const Courses = () => {
   const coursesData = [
     {
@@ -18,7 +19,7 @@ const Courses = () => {
   ];
   return (
     <div className={styles.courses}>
-    <h2>Cursos Disponibles</h2>
+    <h2 className={styles.tittle}>Cursos Disponibles</h2>
     <div className={styles.courseList}>
       {coursesData.map((course, index) => (
         <>

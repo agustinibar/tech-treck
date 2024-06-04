@@ -4,6 +4,7 @@ import  Testimonials  from '../Banner/Testimonials/Testimonials';
 import  CallToAction  from '../Banner/CTA/CallToAction';
 import  Info  from '../Banner/Info/Info';
 
+
 const Banner = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
     const slides = [ <Testimonials key={1}/>, <CallToAction key={2}/>, <Info key={3}/> ];
@@ -21,8 +22,8 @@ const Banner = () => {
       <div className={styles.slideContainer}>
         {slides[currentSlide]}
       </div>
-      <button onClick={nextSlide} className={styles.navButtonN}>Next</button>
-      <button onClick={prevSlide} className={styles.navButtonP}>Prev</button>
+      <button onClick={nextSlide} className={styles.navButtonN}>&#10095;</button>
+      <button onClick={prevSlide} className={styles.navButtonP}>&#10094;</button>
     </div>
   )
 }

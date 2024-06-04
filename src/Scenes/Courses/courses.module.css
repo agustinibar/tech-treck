@@ -18,6 +18,7 @@
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     display: flex;
+    cursor: pointer;
   }
   
   .courseCard h3 {
@@ -41,3 +42,11 @@
     font-style: normal;
 }
   
+.tittle{
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  margin: 80px auto;
+  color: #8906E6;
+}
