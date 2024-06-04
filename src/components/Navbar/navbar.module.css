@@ -25,9 +25,9 @@ img{
 }
 
 .navbarButton{
-    background-color: #8906E6;
+    background-color: #087CA7;
     border-radius: 10px;
-    color: #C484F1;
+    color: white;
     font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
     /* font-weight: bolder; */
@@ -39,5 +39,5 @@ img{
 }
 .navbarButton:hover{
     transform: scale(1.1);
-    box-shadow: 0 0 10px #FF00E2, 0 0 20px #FF00E2, 0 0 30px #FF00E2;
+    /* box-shadow: 0 0 10px #FF00E2, 0 0 20px #FF00E2, 0 0 30px #FF00E2; */
 }

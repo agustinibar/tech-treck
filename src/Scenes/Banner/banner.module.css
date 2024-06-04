@@ -3,7 +3,6 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    background-color: cadetblue;
   }
   .navButtonP {
     background-color: #fff;
@@ -30,6 +29,8 @@
     overflow: hidden;
     position: relative;
     margin: 20px;
+    background-color: #8906E6;
+    border-radius: 10px;
   }
   
  

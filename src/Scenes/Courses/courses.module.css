@@ -1,6 +1,43 @@
 .courses{
     margin: 0 auto;
-    background-color: aquamarine;
     width: cover;
     height: 600px;
+    padding: 20px;
+    background-color:  #231F20;
 }
+  
+  .courseList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .courseCard {
+    background-color:  #2e2b2c5d;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+  }
+  
+  .courseCard h3 {
+    margin-top: 0;
+    color: white;
+  }
+  
+  .courseCard p {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+ .infoCourses{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-left: 10px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: bolder; */
+    font-style: normal;
+}
+  
