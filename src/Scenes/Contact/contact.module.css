@@ -1,7 +1,53 @@
-.contact{
+.contactContainer{
     margin: 0 auto;
     width: cover;
-    height: 600px;
+    height: 525px;
+    margin-top: 100px;
+    color: white;
+    display: flex;
+   /* background-color: black; */
+    border-radius: 10px;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: bolder; */
+    font-style: normal;
+}
+
+.contactInfo{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+        img{
+            width: 200px;
+            height: 220 px;
+            border-radius: 50%;
+          }
+}
+
+.reviews{
+ 
+    width: 70%;
+}
+
+.contact{
+    width: 50%;
     margin-top: 20px;
-    background-color: yellowgreen;
+    margin-left: 50px;
+    p{
+        margin: 0 auto;
+    }
+    h3{
+        margin-bottom: 0;
+    }
+}
+.socialMedia{
+    width: 50%;
+    margin-left: 50px;
+    p{
+        margin: 0 auto;
+    }
+    h3{
+        margin-bottom: 0;
+    }
 }
