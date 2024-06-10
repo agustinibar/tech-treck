@@ -34,7 +34,7 @@ img{
     font-style: normal;
     border: none;
     cursor: pointer;
-    margin-left: 575px; 
+    margin-left: 700px; 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .navbarButton:hover{

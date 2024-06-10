@@ -22,6 +22,7 @@ const Contact = () => {
       </div>
       <div className={styles.reviews}>
         <h2>Construyamos el mañana</h2>
+        
       </div>
       
     </div>
