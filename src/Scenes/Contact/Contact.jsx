@@ -1,5 +1,6 @@
 import styles from './contact.module.css';
 import logo from '../../assets/logoTech.jpg';
+import Recomendaciones from '../../components/Recomendaciones/Recomendaciones'
 
 const Contact = () => {
   return (
@@ -22,7 +23,7 @@ const Contact = () => {
       </div>
       <div className={styles.reviews}>
         <h2>Construyamos el mañana</h2>
-        
+        <Recomendaciones/>
       </div>
       
     </div>
