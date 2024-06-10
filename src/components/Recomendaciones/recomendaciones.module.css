@@ -9,7 +9,7 @@
 .card{
     padding: 5px;
     background-color: yellow;
-    border: 1px solid black;
+    
     border-radius: 5px;
     width: 25%;
     display: flex;
@@ -24,6 +24,7 @@
 }
 .card:hover{
     transform: scale(1.1);
+    box-shadow: 0 0 10px #ffee00, 0 0 20px #fbff00, 0 0 30px #ffee00;
 }
 .testimonial{
     font-size: 12px;

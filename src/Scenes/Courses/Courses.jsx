@@ -19,24 +19,22 @@ const Courses = () => {
   ];
   return (
     <div className={styles.courses}>
-    <h2 className={styles.tittle}>Cursos Disponibles</h2>
+    <h2 className={styles.title}>Cursos Disponibles</h2>
     <div className={styles.courseList}>
       {coursesData.map((course, index) => (
-        <>
         <div key={index} className={styles.courseCard}>
           <div className={styles.imgCourse}>
-          <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" />
           </div> 
           <div className={styles.infoCourses}>
-          <h3>{course.title}</h3>
-          <p>{course.description}</p>
+            <h3>{course.title}</h3>
+            <p>{course.description}</p>
           </div>
         </div>
-        </>
       ))}
     </div>
   </div>
   )
 }
 
-export default Courses
+export default Courses;
