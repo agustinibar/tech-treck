@@ -3,10 +3,8 @@ import styles from './banner.module.css';
 import  Testimonials  from '../Banner/Testimonials/Testimonials';
 import  CallToAction  from '../Banner/CTA/CallToAction';
 import  Info  from '../Banner/Info/Info';
-import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import ArrowBackIcon from '@mui/icons-material/ArrowBack';
-import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
-import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
+import KeyboardDoubleArrowLeftIcon from '@mui/icons-material/KeyboardDoubleArrowLeft';
+import KeyboardDoubleArrowRightIcon from '@mui/icons-material/KeyboardDoubleArrowRight';
 
 const Banner = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
@@ -25,8 +23,10 @@ const Banner = () => {
       <div className={styles.slideContainer}>
         {slides[currentSlide]}
       </div>
-      <button onClick={nextSlide} className={styles.navButtonN}>&#10095;</button>
-      <button onClick={prevSlide} className={styles.navButtonP}>&#10094;</button>
+      <KeyboardDoubleArrowRightIcon onClick={prevSlide} className={styles.navButtonN}/>
+      <KeyboardDoubleArrowLeftIcon onClick={nextSlide} className={styles.navButtonP} />
+   
+
     </div>
   )
 }
